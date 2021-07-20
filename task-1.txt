@@ -1,0 +1,13 @@
+List 5 difference between Browser JS(console) v Nodejs.
+watch & summary 5 points - https://www.youtube.com/watch?v=SmE4OwHztCc&ab_channel=JSConf
+To read - https://stackoverflow.com/questions/5641997/is-it-necessary-to-write-head-body-and-html-tags
+Execute the bellow code and write your description in txt file
+        typeof(1)
+        typeof(1.1)
+        typeof('1.1')
+        typeof(true)
+        typeof(null)
+        typeof(undefined)
+        typeof([])
+        typeof({})
+        typeof(NaN)
