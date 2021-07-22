@@ -12,7 +12,7 @@ The browser is also an untrustable environment for security-related operations s
 
 =>watch & summary 5 points - https://www.youtube.com/watch?v=SmE4OwHztCc&ab_channel=JSConf
 Points are :- 
-1)Html codes are parsed as tree.
+1)Html codes are parsed as tree(DOM/CSSOM).
 2) Network , link and style are could slower the JS execution.
 3) Script tag stops the parser go through the Htmal DOM tree resulted in faster to render.
 4) JS may can affect the DOM and CSSOM running at same time.
