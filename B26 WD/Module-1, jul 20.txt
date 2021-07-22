@@ -30,4 +30,6 @@ Points are :-
         typeof([]) = "object"
         typeof({}) = "object"
         typeof(NaN) = "number"
+        
+ => what is Prototype :- Prototypes are the mechanism by which JavaScript objects inherit features from one another.       
 
