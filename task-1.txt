@@ -1,34 +1,33 @@
-List 5 difference between Browser JS(console) v Nodejs.
-watch & summary 5 points - https://www.youtube.com/watch?v=SmE4OwHztCc&ab_channel=JSConf
-To read - https://stackoverflow.com/questions/5641997/is-it-necessary-to-write-head-body-and-html-tags
-Execute the bellow code and write your description in txt file
-        typeof(1)
-        typeof(1.1)
-        typeof('1.1')
-        typeof(true)
-        typeof(null)
-        typeof(undefined)
-        typeof([])
-        typeof({})
-        typeof(NaN)
-------------------------------------------------------------------------------------------------------------------------------------------
-Task - July 21, 2021
-    1)
-    var obj = [
-          { person: "Name 1", age: "2", company: "GUVI" },
-          { person: "Name 2", age: "5", company: "GUVI geek" },
-          { person: "Name 3", age: "8", company: "GUVI geek network" },
-        ]
-    use the above JSON to iterate over all for loops (for, for in, for of, forEach)
-    2)
-        var xhr = new XMLHttpRequest();
-        xhr.open("GET", "https://restcountries.eu/rest/v2/all");
-        xhr.onload = function () {
-          var data = JSON.parse(this.response);
-          console.log(data);
-        };
-        xhr.send();
-    use the restcountries API url ->  https://restcountries.eu/rest/v2/all
-    and display all the country flags in console
-    3) use the same restcountries and print all countries name, region, sub region and population.
-    4) read about the difference between window, screen and document in javascript
+=>List 5 difference between Browser JS(console) v Nodejs. :-
+1)Browser JS has a DOM(document object model) where as nodejs doesn't have a DOM.
+2)The major difference between both environments is that one is subject to rigorous security policies and restrictions (browser) while the other isin't. 
+The browser is also an untrustable environment for security-related operations such as enforcing security permissions.
+3)Node.js has built-in libraries for HTTP and socket communication with which it can create a web server and thus be a replacement
+ for other types of servers such as. Apache or Nginx
+4)Node.js does not have browser APIs related to DOM, CSS, performance, document, as well as all APIs associated with the "window" object.
+ Precisely because of the lack of a window object, the global object was renamed "global".
+6)Since the development of JavaScript is moving very fast, browsers often lag behind the implementation of new features of JavaScript,
+ so you need to use an older version of JavaScript in the Browser, but this does not apply to Node.js,
+ you can use it all modern ES6-7-8-9 JavaScript if your version of Node.js supports it. 
+
+=>watch & summary 5 points - https://www.youtube.com/watch?v=SmE4OwHztCc&ab_channel=JSConf
+Points are :- 
+1)Html codes are parsed as tree.
+2) Network , link and style are could slower the JS execution.
+3) Script tag stops the parser go through the Htmal DOM tree resulted in faster to render.
+4) JS may can affect the DOM and CSSOM running at same time.
+5) A small change in font phase can result in chnage of whole layer of page also appens when restarting the browser or accepting some JS properties.
+
+=>To read - https://stackoverflow.com/questions/5641997/is-it-necessary-to-write-head-body-and-html-tags = "DONE"
+
+=>Execute the bellow code and write your description in txt file
+        typeof(1) = "number"
+        typeof(1.1) = "number"
+        typeof('1.1') = "string"
+        typeof(true) = "boolean"
+        typeof(null) = "object"
+        typeof(undefined) = "undefined"
+        typeof([]) = "object"
+        typeof({}) = "object"
+        typeof(NaN) = "number"
+
