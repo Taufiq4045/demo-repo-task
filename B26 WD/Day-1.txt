@@ -1,17 +1,23 @@
 To read:
 =>https://stackoverflow.com/questions/1517582/what-is-the-difference-between-statically-typed-and-dynamically-typed-languages
-*** A language is statically typed if the type of a variable is known at compile time.The main advantage here is that all kinds of checking can be done by the compiler, and therefore a lot of trivial bugs are caught at a very early stage. Examples: C, C++, Java, Rust, Go, Scala
-*** A language is dynamically typed if the type is associated with run-time values, and not named variables/fields/etc. This means that we as a programmer can write a little quicker because we do not have to specify types every time (unless using a statically-typed language with type inference).
+*** A language is statically typed if the type of a variable is known at compile time.The main advantage here is that all kinds of 
+checking can be done by the compiler, and therefore a lot of trivial bugs are caught at a very early stage. Examples: C, C++, Java, Rust, Go, Scala
+*** A language is dynamically typed if the type is associated with run-time values, and not named variables/fields/etc. This means that we as
+a programmer can write a little quicker because we do not have to specify types every time (unless using a statically-typed language with type inference).
 Examples: Perl, Ruby, Python, PHP, JavaScript
 
 =>https://stackoverflow.com/questions/17253545/scripting-language-vs-programming-language
-***Scripting languages are programming languages that don't require an explicit compilation step. Ex: JavaScript. You don't have to compile before you run the code.But it doesn't mean that we cant compile but actually scripting languages are traditionally used without a explicit compilation step.
+***Scripting languages are programming languages that don't require an explicit compilation step. Ex: JavaScript. You don't have to compile before you 
+run the code.But it doesn't mean that we cant compile but actually scripting languages are traditionally used without a explicit compilation step.
 
 
 =>codekata practice :- In progress.
 
 =>Difference between HTTP1.1 vs HTTP2
-*** HTTP/1.1 loads resources one after the other, so if one resource cannot be loaded, it blocks all the other resources behind it. In contrast, HTTP/2 is able to use a single TCP connection to send multiple streams of data at once so that no one resource blocks any other resource. HTTP/2 does this by splitting data into binary-code messages and numbering these messages so that the client knows which stream each binary message belongs to.
-***HTTP/2 supports queries multiplexing, headers compression, priority and more intelligent packet streaming management. This results in reduced latency and accelerates content download on modern web pages.
+*** HTTP/1.1 loads resources one after the other, so if one resource cannot be loaded, it blocks all the other resources behind it. In contrast,
+HTTP/2 is able to use a single TCP connection to send multiple streams of data at once so that no one resource blocks any other resource.
+HTTP/2 does this by splitting data into binary-code messages and numbering these messages so that the client knows which stream each binary message belongs to.
+***HTTP/2 supports queries multiplexing, headers compression, priority and more intelligent packet streaming management. This results in reduced latency and
+accelerates content download on modern web pages.
 *** Web browsers only support HTTP/2 via encrypted connections, increasing user and application security.
 
