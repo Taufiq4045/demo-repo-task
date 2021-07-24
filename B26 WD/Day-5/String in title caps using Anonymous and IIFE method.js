@@ -1,4 +1,4 @@
-// JS to Print Odd Numbers in an array
+// JS to Print the string in title caps
 var str = "geek for geeks";
 
 
