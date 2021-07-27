@@ -11,4 +11,4 @@ for (var i = 0; i < numsArr.length; i++) {
 }
 console.log(numsArr);
 
-// Output :- Elements in an inner array
+// Output :- Even index Elements replaced by even
