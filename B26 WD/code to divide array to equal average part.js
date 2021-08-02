@@ -1,3 +1,4 @@
+// code to divide an array into 2 parts and to check whether average are same
 var arr = [4,2,3,4,2];
 var n = 5;
 
