@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width = device-width, initial-scale=1.0">
+        <title>Front End</title>
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <style>
+            body{
+                margin:0px;
+                padding: 0px;
+                background-color: whitesmoke;
+            }
+            .container{
+                background-color: white;
+                width: 700px;
+                height: 910px;
+                border: none;
+                border: 2px solid black;
+                box-shadow:  3px 3px 10px 0px rgba(50,50,50,0.1);
+            }
+            h6{
+                margin-bottom: 2px;
+                font-weight: bold;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+            span{
+                color: red;
+            }
+            .wrapper{
+                display: flex;
+                gap: 40px;
+            }
+            
+            #email-border{
+                width: 400px;
+            }
+            input{
+                border-color:lightsteelblue ;
+            }
+            .checked{
+                color: orange;
+            }
+            .stars{
+                color: lightsalmon;
+                font-size: xx-large;
+            }
+            #star{
+                margin-top: -40px;
+            }
+            p{
+                font-size: 12px;
+                margin-bottom: 5px;
+            }
+            #first{
+                text-align: center;
+                padding: 5px;
+                margin: -10px;
+                               
+            }
+            #second{
+                text-align: center;
+                padding: 5px;
+                margin: -10px;
+            }
+            textarea{
+                margin-top: -25px;
+            }
+            button{
+                width: 80px;
+            }
+           
+        </style>
+    </head>
+        <div class="container">
+            <h6>Name<span>*</span></h6>
+             <div class="wrapper">
+                <div class="fisrtName">
+                    <input type="text">
+                    <p>First</p>
+                </div>
+                <div  class="secondName">
+                    <input type="text">
+                    <p>Last</p>
+                </div>
+             </div>  
+             <h6>Email<span>*</span></h6> 
+             <div class="email">
+                 <input type="text" id="email-border">
+             </div><br/>
+             <h6>Your Experience<span>*</span></h6><br/>
+             <div id="star">
+                <span class="stars">&starf;</span>
+                <span class="stars">&starf;</span>
+                <span class="stars">&starf;</span>
+                <span class="stars">&starf;</span>
+                <span class="stars">&starf;</span>
+            </div>
+             <p>Overall, how would you rate your experience with us?</p>
+             <h6>How satisfied are you with<span>*</span></h6>
+             <div id="first">
+                <table class="table table-striped">
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <thead>
+                    <tr>
+                        <td colspan="1"></td>
+                        <td colspan="1">Very Unsatisfied</td>
+                        <td colspan="1">Unsatisfied</td>
+                        <td colspan="1">Neutral</td>
+                        <td colspan="1">Satisfied</td>
+                        <td colspan="1">Very Satisfied</td>
+                    </tr>
+                    <tr>
+                        <td>Purchase</td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                    </tr>
+                    <tr>
+                        <td>Service</td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                    </tr>
+                    <tr>
+                        <td>Company Overall</td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                        <td><input type="radio"></td>
+                    </tr>
+                </thead>
+             </table>
+             </div>
+             <h6>How likely are you to<span>*</span></h6>
+                <div id="second">
+                   <table class="table table-striped">
+                   <col>
+                   <col>
+                   <col>
+                   <col>
+                   <col>
+                   <col>
+                   <thead>
+                       <tr>
+                           <td colspan="1"></td>
+                           <td colspan="1">Very Unsatisfied</td>
+                           <td colspan="1">Unsatisfied</td>
+                           <td colspan="1">Neutral</td>
+                           <td colspan="1">Satisfied</td>
+                           <td colspan="1">Very Satisfied</td>
+                       </tr>
+                       <tr>
+                           <td>Buy from us again</td>
+                           <td><input type="radio"></td>
+                           <td><input type="radio"></td>
+                           <td><input type="radio"></td>
+                           <td><input type="radio"></td>
+                           <td><input type="radio"></td>
+                       </tr>
+                       <tr>
+                           <td>Recommend our product to others</td>
+                           <td><input type="radio"></td>
+                           <td><input type="radio"></td>
+                           <td><input type="radio"></td>
+                           <td><input type="radio"></td>
+                           <td><input type="radio"></td>
+                       </tr>
+                       <tr>
+                           <td>Recommend our company to others</td>
+                           <td><input type="radio"></td>
+                           <td><input type="radio"></td>
+                           <td><input type="radio"></td>
+                           <td><input type="radio"></td>
+                           <td><input type="radio"></td>
+                       </tr>
+                   </thead>
+                </table>
+             </div>
+             <h6>Additional comments or suggestions</h6><br/>
+             <textarea rows="4" cols="90"></textarea>
+             <button type="submit" value="Submit">Submit</button>
+        </div>
+    
+        <script src="/js/jquery-3.6.0.min.js"></script>
+       <script src="/js/bootstrap.min.js"></script>
+    </body>
+</html> 
+
