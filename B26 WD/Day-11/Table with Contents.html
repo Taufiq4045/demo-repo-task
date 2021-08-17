@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width = device-width, initial-scale=1.0">
+        <title>Front End</title>
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <style>
+            
+            h3{
+               margin-left: 400px ;
+            }
+            .table{
+                width: 700px;
+                height: 400px;
+            }
+            
+            
+        </style>
+    </head>
+    <body>
+        <h3>Health Chart</h3>
+        <div class="container" id="first">
+       <table class="table-bordered table">
+          <col>
+          <colgroup span="2"></colgroup>
+          <col>
+          <thead>
+              <tr>
+                  <th rowspan="2">State of health</th>
+                  <th colspan="2" scope="colgroup">Fasting value</th>
+                  <th rowspan="1">After Eating</th>
+              </tr>
+              <tr>
+                  <th scope="col">Minimum</th>
+                  <th scope="col">Maximum</th>
+                  <th scope="col">2 hours after eating</th>
+              </tr>
+              <tr>
+                  <td scope="row">Healthy</td>
+                  <td>70</td>
+                  <td>100</td>
+                  <td>Less than 140</td>
+              </tr>
+              <tr>
+                  <td scope="row">Pre-Diabetes</td>
+                  <td>101</td>
+                  <td>126</td>
+                  <td>140 to 200</td>
+              </tr>
+              <tr>
+                  <td scope="row">Diabetes</td>
+                  <td>More than 126</td>
+                  <td>N/A</td>
+                  <td>More than 200</td>
+              </tr>
+          </thead>
+       </table>
+       </div>
+       
+       
+        <script src="/js/jquery-3.6.0.min.js"></script>
+       <script src="/js/bootstrap.min.js"></script>
+    </body>
+</html> 
+
